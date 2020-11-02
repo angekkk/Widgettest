@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b483b0-6ccc-4e2a-8ec0-25eb58e61659" name="Default Changelist" comment="" />
+    <list default="true" id="f5b483b0-6ccc-4e2a-8ec0-25eb58e61659" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/script/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +39,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jQEYCSea0pG1yLPrS2XXRm1uKk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,11 +56,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="web/dialog.html" type="DartWebdevConfigurationType" factoryName="Dart Web">
       <option name="htmlFilePath" value="$PROJECT_DIR$/web/index.html" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" port="53322">
       <method v="2" />
     </configuration>
   </component>
@@ -48,32 +83,53 @@
       <workItem from="1604075247829" duration="117000" />
       <workItem from="1604075918397" duration="2001000" />
       <workItem from="1604133095115" duration="1824000" />
+      <workItem from="1604305604715" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604076162915">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="245" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604305977091">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="245" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604305977091" />
     <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1604076162915" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1604134479497">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1604306735949">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
     <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1604134479497" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1604134479496">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1604306735949">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
     <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1604134479496" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1604134479496">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1604306735949">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
     <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1604134479496" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1604134479497">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1604306735949">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
     <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1604134479497" />
+    <state x="553" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604305626846">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="553" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604305626845" />
   </component>
 </project>
