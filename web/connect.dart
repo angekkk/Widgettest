@@ -23,15 +23,10 @@ Future<void> readData(MySqlConnection conn) async {
       .deStream();
   print(result);
   print(result.map((r) => r.byName('nome')));
-
+  querySelector(".container div:textarea").text =  result.toString();
 }
 
-void main(){
-
-  querySelector('#out').text =  "CIAO";
-}
-
-void main2() async {
+main() async {
   var s = ConnectionSettings(
     user: "root",
     password: "mysql",
@@ -44,6 +39,7 @@ void main2() async {
   print("Opening connection ...");
   var conn = await MySqlConnection.connect(s);
   print("Opened connection!");
+
 
   await readData(conn);
 

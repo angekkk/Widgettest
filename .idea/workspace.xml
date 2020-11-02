@@ -24,13 +24,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b483b0-6ccc-4e2a-8ec0-25eb58e61659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="f5b483b0-6ccc-4e2a-8ec0-25eb58e61659" name="Default Changelist" comment="Test connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/connect.dart" beforeDir="false" afterPath="$PROJECT_DIR$/web/connect.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +94,14 @@
       <workItem from="1604133095115" duration="1824000" />
       <workItem from="1604305604715" duration="1118000" />
     </task>
+    <task id="LOCAL-00001" summary="Test connection">
+      <created>1604335432728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604335432728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,35 +119,40 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test connection" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604331407897">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="245" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604305977091" />
     <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1604331407897" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1604335224763">
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1604340890080">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1604335224763" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1604335224763">
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1604340890080" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1604340890079">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1604335224763" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1604335224762">
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1604340890079" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1604340890079">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1604335224762" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1604335224763">
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1604340890079" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1604340890079">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604306735949" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1604335224763" />
-    <state x="553" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604305626846">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1604340890079" />
+    <state x="415" y="227" key="Vcs.Push.Dialog.v2" timestamp="1604335441141">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="553" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604305626845" />
+    <state x="415" y="227" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1604335441141" />
   </component>
 </project>
