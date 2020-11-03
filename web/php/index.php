@@ -63,6 +63,14 @@
                                            data-whatever="'.$mem['id'].' ">Edit</a>
                                      </td>';
                             echo '</tr>';
+                            // encode array to json
+                            $json = json_encode(array('id' => $mem['id'],'nome' => $mem['nome'],'versione' => $mem['versione'],'descrizione' => $mem['descrizione'],'nodi' => $mem['nodi'],'thumb' => $mem['thumb']));
+
+                            //write json to file
+                            if (file_put_contents("".$mem['nome'].".json", $json)){
+                            //ok
+
+                            }
                          endwhile;
                          /* free result set */
                          $result->close();
