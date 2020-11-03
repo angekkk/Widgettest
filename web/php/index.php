@@ -45,6 +45,8 @@
                     <th>Nome</th>
                     <th>Versione</th>
                     <th>Descrizione</th>
+                    <th>Nodi</th>
+                    <th>Thumbnail</th>
                     <th></th>
                 </tr>
                 </thead>
@@ -56,6 +58,8 @@
                                echo '<td>'.$mem['nome'].'</td>';
                                echo '<td>'.$mem['versione'].'</td>';
                                echo '<td>'.$mem['descrizione'].'</td>';
+                               echo '<td>'.$mem['nodi'].'</td>';
+                               echo '<td>'.$mem['thumb'].'</td>';
                                echo '<td>
                                         <a class="btn btn-small btn-primary"
                                            data-toggle="modal"
