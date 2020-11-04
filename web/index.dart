@@ -1,18 +1,19 @@
 //import 'dart:io' as io; NON SUPPORTATA PER WEB-APP
 import 'dart:convert';
-//import 'dart:html';
-import 'package:universal_io/io.dart' as io;
+import 'dart:html';
+
 // ...
 
 
 
-void main() {
- // var textarea = querySelector('.container').querySelector('.text');
+Future<void> main() async {
+  var req = new HttpRequest();
+  req.open('post','http://localhost:53322/php/write_dataset.php');
 
-  new io.File('php/pao_a.json')
-      .readAsString()
-      .then((fileContents) => json.decode(fileContents))
-      .then((jsonData) {
-       print( jsonData.toString());
-  });
+  var textarea = querySelector('#textArea');
+  var data = await HttpRequest.getString('php/Dataset.json');
+
+
+  textarea.text = (json.decode(data).toString());
+
 }
