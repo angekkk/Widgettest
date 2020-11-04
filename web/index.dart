@@ -51,7 +51,9 @@ createCard(var nome,var descrizione, var thumb, var versione){
   Element col2 = new Element.tag('div');
   col2.className = 'col-md-4';
   row1.insertAdjacentElement('afterbegin', col2);
-  col2.insertAdjacentHtml('afterbegin', '<img src="https://www.syncfusion.com/products/flutter/control/images/chart/chart-types/flutter-line-chart.png"       alt="..."       class="img-fluid"       />');
+  Element img = new Element.img();
+  img.setAttribute('src', 'https://www.syncfusion.com/products/flutter/control/images/chart/chart-types/flutter-line-chart.png');
+  col2.insertAdjacentElement('afterbegin', img);
   Element col3 = new Element.tag('div');
   col3.className = 'col-md-8';
   Element carb = new Element.tag('div');
