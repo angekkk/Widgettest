@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b483b0-6ccc-4e2a-8ec0-25eb58e61659" name="Default Changelist" comment="Json dataset">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/php/Dataset.json" beforeDir="false" />
-    </list>
+    <list default="true" id="f5b483b0-6ccc-4e2a-8ec0-25eb58e61659" name="Default Changelist" comment="Dynamic cards" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +92,7 @@
       <workItem from="1604305604715" duration="1118000" />
       <workItem from="1604410583552" duration="177000" />
       <workItem from="1604415978140" duration="3425000" />
-      <workItem from="1604502645669" duration="1021000" />
+      <workItem from="1604502645669" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="Test connection">
       <created>1604335432728</created>
@@ -131,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604489186659</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dynamic cards">
+      <created>1604503766594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604503766594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +155,8 @@
     <MESSAGE value="Card modal" />
     <MESSAGE value="Write json from table" />
     <MESSAGE value="Json dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json dataset" />
+    <MESSAGE value="Dynamic cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic cards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604331407897">
@@ -169,30 +168,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1604483428509" />
-    <state width="1899" height="284" key="GridCell.Tab.0.bottom" timestamp="1604503677784">
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom" timestamp="1604503803473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604503677784" />
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604503803473" />
     <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1604442200343" />
-    <state width="1899" height="284" key="GridCell.Tab.0.center" timestamp="1604503677784">
+    <state width="1899" height="284" key="GridCell.Tab.0.center" timestamp="1604503803473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604503677784" />
+    <state width="1899" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604503803473" />
     <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1604442200342" />
-    <state width="1899" height="284" key="GridCell.Tab.0.left" timestamp="1604503677784">
+    <state width="1899" height="284" key="GridCell.Tab.0.left" timestamp="1604503803473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604503677784" />
+    <state width="1899" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604503803473" />
     <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1604442200341" />
-    <state width="1899" height="284" key="GridCell.Tab.0.right" timestamp="1604503677784">
+    <state width="1899" height="284" key="GridCell.Tab.0.right" timestamp="1604503803473">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604503677784" />
+    <state width="1899" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604503803473" />
     <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1604442200342" />
-    <state x="553" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604489192084">
+    <state x="553" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604503788602">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="553" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604489192084" />
+    <state x="553" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604503788602" />
     <state x="415" y="227" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1604341077148" />
   </component>
 </project>
