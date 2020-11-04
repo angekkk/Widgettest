@@ -1,19 +1,18 @@
-// THIS DOESN'T WORK IN A BROWSER ENVIRONMENT (aka client side)
-import 'dart:io' as io;
+//import 'dart:io' as io; NON SUPPORTATA PER WEB-APP
 import 'dart:convert';
-import 'dart:html';
-
+//import 'dart:html';
+import 'package:universal_io/io.dart' as io;
 // ...
 
 
 
 void main() {
+ // var textarea = querySelector('.container').querySelector('.text');
+
   new io.File('php/pao_a.json')
       .readAsString()
       .then((fileContents) => json.decode(fileContents))
       .then((jsonData) {
-       print('JSON :  '+jsonData.toString());
-       querySelector('#textArea').text = jsonData.toString();
-
+       print( jsonData.toString());
   });
 }

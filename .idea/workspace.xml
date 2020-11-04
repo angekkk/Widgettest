@@ -13,6 +13,11 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
@@ -20,9 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b483b0-6ccc-4e2a-8ec0-25eb58e61659" name="Default Changelist" comment="Write json from table">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/connect.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/php/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/php/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/php/conn.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +70,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="web/index.html" type="DartWebdevConfigurationType" factoryName="Dart Web">
@@ -146,26 +162,26 @@
     </state>
     <state x="245" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604305977091" />
     <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1604331407897" />
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1604422751565">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1604442200343">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604422751565" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1604341084270" />
-    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1604422751564">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1604442200343" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1604442200342">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604422751564" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1604341084269" />
-    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1604422751564">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1398" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1604442200342" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1604442200341">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604422751564" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1604341084269" />
-    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1604422751564">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1398" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1604442200341" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1604442200342">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604422751564" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1604341084269" />
+    <state width="1398" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1604442200342" />
     <state x="553" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604416663672">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

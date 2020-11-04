@@ -98,7 +98,7 @@ packages:
       name: build_web_compilers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.13.0"
+    version: "2.12.2"
   built_collection:
     dependency: transitive
     description:
@@ -365,13 +365,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
-  sqljocky5:
-    dependency: "direct dev"
-    description:
-      name: sqljocky5
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.2.1"
   stack_trace:
     dependency: transitive
     description:
@@ -407,13 +400,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
-  synchronized:
-    dependency: transitive
-    description:
-      name: synchronized
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.5.3+2"
   term_glyph:
     dependency: transitive
     description:
@@ -428,13 +414,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.1+2"
-  typed_buffer:
-    dependency: transitive
-    description:
-      name: typed_buffer
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.2.1"
   typed_data:
     dependency: transitive
     description:
@@ -442,6 +421,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.0"
+  universal_io:
+    dependency: "direct dev"
+    description:
+      name: universal_io
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   watcher:
     dependency: transitive
     description:
@@ -470,5 +456,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.1"
+  zone_local:
+    dependency: transitive
+    description:
+      name: zone_local
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.2"
 sdks:
-  dart: ">=2.11.0-162.0 <3.0.0"
+  dart: ">=2.10.0 <3.0.0"

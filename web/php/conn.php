@@ -1,6 +1,6 @@
 <?php
 $username = "root";
-$password = "";
+$password = "mysql";
 $hostname = "localhost";
 $db_name = "pao";
 
