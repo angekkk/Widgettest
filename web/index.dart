@@ -53,6 +53,7 @@ createCard(var nome,var descrizione, var thumb, var versione){
   row1.insertAdjacentElement('afterbegin', col2);
   Element img = new Element.img();
   img.setAttribute('src', 'https://www.syncfusion.com/products/flutter/control/images/chart/chart-types/flutter-line-chart.png');
+  img.className = 'img-fluid';
   col2.insertAdjacentElement('afterbegin', img);
   Element col3 = new Element.tag('div');
   col3.className = 'col-md-8';
