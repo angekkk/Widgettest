@@ -1,12 +1,10 @@
-//import 'dart:io' as io; NON SUPPORTATA PER WEB-APP
+
 import 'dart:convert';
 import 'dart:html';
 
 // ...
 
 var el = querySelector('#modal-body');
-
-
 
 class Dataset {
   Dataset({this.id, this.nome, this.descrizione, this.versione, this.nodi, this.thumb});
@@ -46,6 +44,10 @@ createCard(var nome,var descrizione, var thumb, var versione){
   Element col = new Element.tag('div');
   col.className = 'card mb-3';
   col.style.maxWidth = '840px';
+
+  Element divSuprem = new Element.tag('div');
+  divSuprem.className = 'col-md-30';
+
   Element row1 = new Element.tag('div');
   row1.className = 'row g-0';
   Element col2 = new Element.tag('div');
@@ -74,5 +76,7 @@ createCard(var nome,var descrizione, var thumb, var versione){
   col3.insertAdjacentElement('afterbegin', carb);
   col.insertAdjacentElement('afterbegin', col3);
   col.insertAdjacentElement('afterbegin', row1);
-  el.insertAdjacentElement('afterbegin', col);
+
+  divSuprem.insertAdjacentElement('afterbegin', col);
+  el.insertAdjacentElement('afterbegin', divSuprem);
 }
